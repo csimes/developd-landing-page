@@ -1,7 +1,8 @@
 # developd Landing Page
 
 This repository is the landing page for my personal brand, developd. [developd | programmed to perfection.](https://www.developdbycherron.com).
-The landing page will serve as a placeholder until I complete the redesign of my [portfolio/website](https://csimes.github.io/portfolio) 
+
+The landing page will serve as a placeholder until I complete the redesign of my [portfolio/website](https://csimes.github.io/portfolio).
 
 
 ## Technology Stack
