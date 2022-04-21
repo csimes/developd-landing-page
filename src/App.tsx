@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import github from './assets/github-circle.svg';
 import linkedin from './assets/linkedin-circle.svg';
 import instagram from './assets/instagram-circle.svg';
+import logo from './assets/transparent.svg'
 import './App.css';
 import ContactForm from "./components/ContactForm";
 
@@ -9,6 +10,7 @@ class App extends Component {
   render() {
     return (
     <div className='hero'>
+      <img className="logo" src={logo} alt="" />
       <div>
         <div className="intro">
             <h1>Hey, I'm </h1><h1 className="name">Cherron!</h1>
