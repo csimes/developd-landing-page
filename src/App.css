@@ -193,6 +193,7 @@ h1 {
 }
 
 .intro {
+  margin: -4rem 0 5rem 0;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -212,7 +213,7 @@ h1 {
 .social {
   width: 2rem;
   height: 2rem;
-  margin: 1rem;
+  margin: 1.5rem;
 }
 
 .contact-form {
@@ -220,6 +221,7 @@ h1 {
   flex-direction: column;
   text-align: center;
   margin: 1rem;
+  font-size: 24px;
 }
 
 label,
