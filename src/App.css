@@ -1,10 +1,6 @@
 /* 
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    color: #47463b;
-    background-color: #eae7d4;
-}
+
 
 nav, footer {
     background-color: #e79d63;
@@ -161,26 +157,16 @@ form textarea {
     margin-bottom: 1.5rem;
 }
 
-
-
-
-
-footer{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    font-weight: bolder;
-    padding: 1vh;
-
-} */
+ */
 
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #e79d63;
 }
 
 .hero {
@@ -193,24 +179,29 @@ html {
   background-size: auto auto;
   background-repeat: no-repeat;
   color: #eae7d4;
+  height: 100vh;
 }
 
 h1 {
-  margin: 0;
+  font-weight: 400;
+  margin: 0.5rem;
+}
+
+.name {
+  font-weight: 700;
+  color: #47463b;
 }
 
 .intro {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 10vh;
 }
 
 .logo {
   display: block;
   margin: auto;
-  max-height: 20%;
-  max-width: 30%;
+  max-height: 40%;
 }
 
 .socials-group {
@@ -225,5 +216,13 @@ h1 {
 }
 
 .contact-form {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  margin: 1rem;
+}
+
+label,
+input {
+  margin: 0.5rem;
 }

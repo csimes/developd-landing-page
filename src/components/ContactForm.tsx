@@ -7,12 +7,16 @@ function ContactForm() {
   }
   return (
     <form className='contact-form' onSubmit={handleSubmit}>
-      <label htmlFor='email'>Email Address:</label>
-      <input id='email' type='email' name='email' />
-      <ValidationError prefix='Email' field='email' errors={state.errors} />
-      <button type='submit' disabled={state.submitting}>
-        Submit
-      </button>
+      <label htmlFor='email'>
+        Enter your email to be notified of site launch:
+      </label>
+      <div>
+        <input id='email' type='email' name='email' />
+        <ValidationError prefix='Email' field='email' errors={state.errors} />
+        <button type='submit' disabled={state.submitting}>
+          Submit
+        </button>
+      </div>
     </form>
   );
 }
