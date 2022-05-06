@@ -23,21 +23,31 @@ class App extends Component {
           <h1 className='name'>developd.</h1>
         </div>
         <div className='socials-group'>
-          <a href='https://github.com/csimes'>
+          <a href='https://github.com/csimes' target='_blank' rel='noreferrer'>
             <img className='social' src={github} alt='' />
           </a>
-          <a href='https://www.linkedin.com/in/cherron-simes-1b016614b'>
+          <a
+            href='https://www.linkedin.com/in/cherron-simes-1b016614b'
+            target='_blank'
+            rel='noreferrer'
+          >
             <img className='social' src={linkedin} alt='' />
           </a>
-          <a href='https://www.instagram.com/chocolithunda'>
+          <a
+            href='https://www.instagram.com/chocolithunda'
+            target='_blank'
+            rel='noreferrer'
+          >
             <img className='social' src={instagram} alt='' />
           </a>
           <a
-            href=''
+            href='mailto:cherron@developdbycherron.com?subject=Hi Cherron!'
             onClick={() =>
               (window.location.href =
                 'mailto:cherron@developdbycherron.com?subject=Hi Cherron!')
             }
+            target='_blank'
+            rel='noreferrer'
           >
             <img className='social' src={email} alt='' />
           </a>
