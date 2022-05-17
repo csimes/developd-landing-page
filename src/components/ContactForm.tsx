@@ -13,7 +13,7 @@ function ContactForm() {
           id="email"
           type="email"
           name="email"
-          placeholder="email"
+          placeholder="email@example.com"
           autoFocus
         />
         <ValidationError prefix="Email" field="email" errors={state.errors} />

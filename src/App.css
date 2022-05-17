@@ -46,14 +46,14 @@ h1 {
 
 .logo {
   margin: 5% auto;
-  max-width: 15%;
+  width: 30vw;
 }
 
 .info {
   color: #eae7d4;
   margin: auto;
   text-align: center;
-  max-width: 30rem;
+  max-width: 60%;
   padding: 2rem;
   font-weight: 500;
 }
@@ -79,4 +79,28 @@ h1 {
 label,
 input {
   margin: 0.5rem;
+}
+
+input,
+button {
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+input {
+  width: 400px;
+  height: 30px;
+  padding: 5px;
+}
+
+button {
+  font-weight: 700;
+  background-color: #e79d63;
+  color: #47463b;
+  padding: 1rem;
+}
+
+button:hover {
+  color: #eae7d4;
 }
