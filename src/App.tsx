@@ -21,6 +21,11 @@ class App extends Component {
           <h1 className='name'>Cherron!</h1>
           <h1>Web Developer and owner of</h1>{' '}
           <h1 className='name'>developd.</h1>
+          <p className='info'>
+            I'm currently working on rebuilding my website (from scratch), but
+            feel free to reach out and connect on social. You can enter your
+            email below so you know when my site is ready!
+          </p>
         </div>
         <div className='socials-group'>
           <a href='https://github.com/csimes' target='_blank' rel='noreferrer'>
