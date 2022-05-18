@@ -38,24 +38,6 @@ class App extends Component {
           >
             <img className="social" src={linkedin} alt="" />
           </a>
-          <a
-            href="https://www.instagram.com/chocolithunda"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img className="social" src={instagram} alt="" />
-          </a>
-          <a
-            href="mailto:cherron@developdbycherron.com?subject=Hi Cherron!"
-            onClick={() =>
-              (window.location.href =
-                "mailto:cherron@developdbycherron.com?subject=Hi Cherron!")
-            }
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img className="social" src={email} alt="" />
-          </a>
         </div>
         <ContactForm />
       </div>

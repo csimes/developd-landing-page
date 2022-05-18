@@ -25,7 +25,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: #eae7d4;
-  height: 100vh;
 }
 
 h1 {
@@ -60,11 +59,11 @@ h1 {
 
 .socials-group {
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 
 .social {
-  width: 2rem;
   height: 2rem;
   margin: 1.5rem;
 }
@@ -89,7 +88,7 @@ button {
 }
 
 input {
-  width: 400px;
+  width: 50%;
   height: 30px;
   padding: 5px;
 }
