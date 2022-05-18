@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import github from "./assets/github-circle.svg";
 import linkedin from "./assets/linkedin-circle.svg";
-import instagram from "./assets/instagram-circle.svg";
-import email from "./assets/email-circle.svg";
 import logo from "./assets/transparent.png";
 import "./App.css";
 import ContactForm from "./components/ContactForm";
